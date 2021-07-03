@@ -1,0 +1,29 @@
+.titles{
+  margin: 10px auto 10px 30px;
+  padding: 20px;
+}
+
+.grid {
+  margin: auto;
+  width: 206px;
+  height: 206px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: black;
+}
+
+.grid div {
+  width: 18px;
+  height: 18px;
+  border:black solid 1px;
+  
+}
+
+.snake {
+  background-color: lime;
+}
+
+.apple {
+  background-color: red;
+}
